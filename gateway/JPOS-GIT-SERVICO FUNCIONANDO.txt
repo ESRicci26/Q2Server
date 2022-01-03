@@ -1,0 +1,31 @@
+git clone https://github.com/jpos/jPOS-template.git gateway
+
+cd .\gateway\
+
+git init
+
+.\gradlew installApp
+
+build/install/gateway/bin/q2
+
+
+PS E:\jPOS-2_1_6\gateway> build/install/gateway/bin/q2
+
+
+
+PS E:\teste\gateway>build/install/gateway/bin/q2
+<log realm="Q2.system" at="2021-12-31T23:27:24.329">
+  <info>
+    Q2 started, deployDir=E:\teste\gateway\build\install\gateway\deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2021-12-31T23:27:24.802" lifespan="461ms">
+  <version>
+    jPOS 2.1.6-SNAPSHOT master/a5b9931 (2021-03-11 22:10:37 UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
